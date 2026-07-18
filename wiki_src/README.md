@@ -19,7 +19,7 @@ When you first open Zim, it will ask you to create your own personal notebook.  
 3. In the `Open Network` dialog box, click the `Add` button.
 4. Browse to the location of this Wiki
 	1. Name: `Wiki`
-	2. Folder: `~/git/frc-example/Wiki/src` (Example, your path may be different).
+	2. Folder: `~/git/frc-example/wiki_src` (Example, your path may be different).
 5. After importing, open the Wiki.
 
 
