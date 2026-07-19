@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-19T15:49:12-04:00
+
+====== Simulation Training ======
+Created Sunday 19 July 2026
+
+Follow [[https://www.youtube.com/watch?v=geTae7pqgXE|this video tutorial]] step-by-step in creating an elevator simulation.
