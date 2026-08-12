@@ -220,7 +220,7 @@ Let's cause text to print to the scren when a controller button is pressed.
 1. Make a method that prints to the screen.
 
 ```java
-private void printMessage(){
+private Command printMessage(){
   return runOnce(() -> System.out.println("Pressed controller button!"));
   }  
 ```
