@@ -1,4 +1,5 @@
-# Software Bootcamp Tutorial
+# Software Bootcamp Tutorial 1
+## Introduction
 Created Saturday 18 July 2026
 
 Steps
@@ -206,8 +207,8 @@ This time we'll control the LED with the gamepad controller.
 ```
 
 
-2. Deploy to the [RoboRIO]()
-3. Start the [DriverStation]()
+2. Deploy to the RoboRIO
+3. Start the DriverStation
 4. Select Enable
 5. Test the controller
 
