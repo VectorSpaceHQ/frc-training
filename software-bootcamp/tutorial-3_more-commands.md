@@ -16,6 +16,12 @@ In this tutorial, you'll explore several ways of modifying your commands. First,
 
 To do this, look at the beforeStarting(Command before) decorator. Note that this decorator is expecting a Command as its only parameter, not a duration in seconds like you might expect. While this makes things a bit more complicated, it also makes the decorator more powerful as you can imagine using it to wait for another command to complete and not just a fixed duration. For the purpose of this assignment, you'll need to provide a command that waits 1 second. Fortunately, WPILib provides a [WaitCommand](https://github.wpilib.org/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/WaitCommand.html).
 
+The general syntax for decorators looks like the following:
+
+```java
+m_driverController.a().whileTrue(m_exampleSubsystem.turnOn().beforeStarting(commandName));
+```
+
 2. When a limit switch is triggered, turn off the LED.
 
 
