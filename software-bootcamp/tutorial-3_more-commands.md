@@ -8,13 +8,6 @@ Overview
 - Commands as classes in separate files
 
 
-
-
-Another look at Commands
-----------------
-Commands can be written inline as we've done previously, or as their own explicit classes in separate files. As things get more complex, writing commands in their own files can significantly help with code readability.
-
-
 Decorating Commands
 ----------------
 In this tutorial, you'll explore several ways of modifying your commands. First, take a look at the [API referece for the Command class](https://github.wpilib.org/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/Command.html#method-summary). In the method summary table, you'll see various methods described as decorating the command (e.g. andThen(), beforeStarting(), onlyWhile()). These decorators can be appended to your command triggers to add additional features or requirements.
@@ -25,3 +18,7 @@ To do this, look at the beforeStarting(Command before) decorator. Note that this
 
 2. When a limit switch is triggered, turn off the LED.
 
+
+Commands as Explicit Classes
+----------------
+Commands can be written inline as we've done previously, or as their own explicit classes in separate files. As things get more complex, writing commands in their own files can significantly help with code readability.

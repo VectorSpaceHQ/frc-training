@@ -52,14 +52,14 @@ public class ExampleSubsystem extends SubsystemBase {
     // Feedback Constants (PID Constants)
     .withClosedLoopController(1, 5, 0)
     .withTrapezoidalProfile(DegreesPerSecond.of(500), DegreesPerSecondPerSecond.of(90))
-    .withSimClosedLoopController(50, 0, 0)
+    .withSimClosedLoopController(1, 0, 0)
     // Soft limit is applied to the SmartMotorControllers PID
     .withSoftLimits(Degrees.of(-190), Degrees.of(190))
     // Starting position is where your arm starts
     .withStartingPosition(Degrees.of(0))
     // Feedforward Constants
     .withFeedforward(new ArmFeedforward(0, 0, 0))
-    .withSimFeedforward(new ArmFeedforward(0, 0, 0))
+    .withSimFeedforward(new ArmFeedforward(0.1, 0, 0.12))
     // Telemetry name and verbosity level
     .withTelemetry("ArmMotor", TelemetryVerbosity.HIGH)
     // Gearing from the motor rotor to final shaft.
